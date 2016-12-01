@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li,ol{
+	list-style-type: none;
+}
+.blue{
+	color:#79ccff;
+}
+.pink{
+	color: #eca5de;
+}
+body{
+	background: #1a1a1a;
+	color: #fff;
+	font-size: 14px;
+}
+h1{
+	text-align: center;
+	margin: 20px 0 0 0;
+}
+
+.wrap{
+	width: 670px;
+	margin: 40px auto;
+	border:2px solid #121212;
+	padding: 20px;
+	background: #2a2a2a;
+}
+.wrap>div{
+	clear: both;
+	margin: 30px 0;
+	vertical-align: top;
+}
+.wrap>div>div{
+	line-height: 30px;
+	float: left;
+}
+.wrap>div>div ul{
+	line-height: 30px;
+	margin:10px 0;
+	padding: 0 10px;
+	background: #505050;
+	border:1px solid #ccc;
+}
+.wrap>div>div ul li .span_2{
+	margin-right: 20px;
+}
+.wrap>div>div ul li{
+	height: 30px;
+	line-height: 30px;
+}
+.wrap>div>div ul li em.remove_item{
+	font-style: normal;
+	float: right;
+	cursor: pointer;
+	background: #fc6b6b;
+	border-radius: 50%;
+	display: none;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	margin-top: 7px;
+	font-size: 12px;
+	font-family: Arial;
+}
+.wrap>div>div ul li:hover em.remove_item{
+	display: inline-block;
+}
+.wrap p{
+	color: #ccc;
+	margin: 10px 0;
+}
+
+.wrap input[type='text']{
+	background: #505050;
+	height: 30px;
+	line-height: 30px;
+	border:0;
+	color:#fff;
+	width: 200px;
+}
+.wrap input[type='text'].short{
+	width: 120px;
+}
+
+.wrap label{
+	margin-right: 10px;
+}
+.wrap label.tit{
+	float: left;
+	width: 90px;
+	height: 40px;
+	line-height: 30px;
+	display: block;
+	text-align: right;
+}
+.wrap textarea{
+	vertical-align: top;
+	background: #505050;
+	color:#fff;
+	border:0;
+	resize : none;
+}
+.wrap #info{
+	word-break:break-all;
+}
+.wrap button{
+	background: #505050;
+	height: 30px;
+	line-height: 30px;
+	border:0;
+	color:#fff;
+	padding: 0 20px;
+}
+.wrap button:hover{
+	background: #373737;
+}
+
+.documents{
+	width: 674px;
+	margin: 40px auto;
+	padding: 20px;
+	background: #2a2a2a;
+}
+
+.documents dl{
+	padding: 20px;
+	border-bottom: 1px dashed #ccc;
+	line-height: 2;
+}
+.documents dt{
+	font-size: 18px;
+}
+.documents dd{
+	padding-left: 20px;
+}
+
+pre{
+	white-space:pre-line;
+}
+
+
+footer{
+	text-align: center;
+	margin: 30px auto;
+}
+footer a{
+	color: white
+}
+
+
+
